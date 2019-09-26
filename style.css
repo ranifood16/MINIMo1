@@ -1,0 +1,202 @@
+/*font-family: 'Playfair Display', serif;*/
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Playfair Display', serif;
+}
+header{
+width: 90%;
+margin:  0 auto;
+margin-top: 30px;
+}
+/*Header part start*/
+.header-wrapper{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+}
+.logo img{
+width: 100%;
+display: block;
+margin-top: -15px;
+}
+.menu{
+}
+.menu ul{
+list-style: none;
+}
+.menu ul li{
+float: left;
+margin-left: 55px;
+}
+.menu ul li a{
+text-decoration: none;
+color: #626262;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 300px;
+letter-spacing: 1px;
+}
+/*Header part End*/
+/*Banner part*/
+.banner{
+width: 90%;
+margin: auto;
+margin-top: 36px;
+}
+.banner img{
+width: 100%;
+}
+/*Banner End*/
+/*Photodiary start*/
+.photodiary{
+width: 80%;
+margin: auto;
+margin-top: 50px;
+}
+.photodiary h5{
+text-transform: uppercase;
+font-weight: 300;
+font-size: 16px;
+color: #b4ad9e;
+/* margin-top: 40px; */
+}
+.photodiary h1{
+text-transform: capitalize;
+color: #626262;
+margin-bottom: 21px;
+margin-top: 30px;
+}
+.photodiary p{
+color: #626262;
+margin-top: 30px;
+line-height: 20px;
+margin-bottom: 30px;
+text-align: justify;
+}
+.photodiary  a{
+color: #b4ad9e;
+text-transform: uppercase;
+text-decoration: none;
+}
+/*Photodiary End*/
+/*life style start*/
+.lifestyle{width: 80%;margin: auto;margin-top: 105px;display: flex;justify-content: space-between;/* flex-wrap: wrap; */}
+.single-lifestyle{
+width: 47%;
+}
+.single-lifestyle img{width: 100%;
+/* margin-left: 40px; */}
+.single-lifestyle h5{
+text-transform: uppercase;
+font-weight: 300;
+font-size: 16px;
+color: #b4ad9e;
+margin-top: 26px;
+}
+.single-lifestyle h1{
+text-transform: capitalize;
+color: #626262;
+margin-bottom: 21px;
+margin-top: 30px;
+font-size: 27px;
+}
+.single-lifestyle p{
+color: #626262;
+margin-top: 30px;
+line-height: 20px;
+margin-bottom: 30px;
+text-align: justify;
+}
+/*life style End*/
+/*Newslater part start*/
+.newslater{min-height: 320px;
+	background-color: #F0F0F0;
+	display: flex;
+	margin-top: 45px;}
+.contain{
+width: 30%;
+margin: auto;
+/* height: 42px; */
+}
+.newslater h1{
+text-transform: capitalize;
+letter-spacing: 1px;
+margin-bottom: 42px;
+}
+.newslater input{border:none;
+	background-color: #F0F0F0;
+	border-bottom: 1px solid black;
+	width: 80%;
+	padding-bottom: 6px;
+	position: relative;}
+.newslater img{
+position: absolute;
+right: 41%;
+}
+/*Newslater part End*/
+.btn{
+text-align: center;
+min-height: 300px;
+}
+.btn input{
+margin-top: 150px;
+padding: 20px 29px;
+border: 1px solid black;
+background-color: white;
+}
+footer{
+min-height: 100px;
+background-color: #F0F0F0;
+}
+.footer-content{width: 80%;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 45px;
+}
+.privacy{
+
+width: 30%;
+}
+.privacy ul{
+
+list-style: none;
+}
+.privacy ul li{
+
+text-decoration: none;
+}
+.privacy ul li a{
+
+text-decoration: none;
+
+float: left;
+
+margin-right: 20px;
+
+text-transform: uppercase;
+
+color: #232020;
+}
+.social-icon{
+width: 23%;
+}
+.social-icon ul{
+list-style: none;
+}
+.social-icon li{
+float: left;
+margin-right: 24px;
+}
+.social-icon li a{
+text-decoration: none;
+text-transform: uppercase;
+color: #626262;
+}
+.social-icon li a li{
+}
